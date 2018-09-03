@@ -1,0 +1,122 @@
+
+
+body{
+    height: 100%;
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#HTMLQuizTxt{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+#HTMLQuizArticle{
+    margin: auto;
+}
+
+#questions{
+    margin-top:10px;
+    display: none;
+    width:400x;
+    height: 320px;
+    background-color: aliceblue;
+    font-size: 1.7em;
+}
+#content{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#missAnswer{
+    display: none;
+    color: red;
+    font-size: 16px;
+}
+
+#rightAnswerTxt{
+    background-color: green;
+    color: white;
+    display: none;
+    
+}
+
+#wrongAnswerTxt{
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+#showResult{
+    display: none;
+}
+
+/*
+Buttons
+*/
+.button{
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    padding: 6px 12px;
+    display: inline-block;
+    cursor: pointer;
+    color:white;
+    transition-duration: 0.7s;
+    font-size: 1.2em;
+}
+
+.new{
+    background-color:white;   
+    color:black;
+    border: 2px solid green;
+    border-radius: 1em;
+}
+.new:hover{
+    background-color: green;
+    color:white;
+}
+
+.score{
+    background-color: white;
+    color:black;
+    border: 2px solid blue;
+    border-radius: 2em;
+}
+
+.score:hover{
+    background-color: blue;
+    color:white;
+}
+
+/*
+Nav
+*/
+nav ul{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+nav li a{
+
+    font-size: 1.6em;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*
+Footer
+*/
+footer{
+    position: relative;
+    margin-top: 5%;
+    font-family: serif;
+    font-size: 1.2em;
+}
+
